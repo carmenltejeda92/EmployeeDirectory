@@ -47,7 +47,27 @@ function App() {
       </div>
       <div className='empPage'>
         <div><h1 id='rightHeader'>Employee</h1></div>
-        <div></div>
+        <div id='title'>
+            <img id="rightImg" src='https://images.squarespace-cdn.com/content/v1/6204821bfe06b76898b431c5/1660858625934-ZVWEMZYZHLWTVCXC19E3/Brandon+Andre+-+Headshot+Los+Angeles+na4-3.jpg?format=1000w' height='105px' width='95px'/>
+            <h3>Julie Taylor</h3>
+            <h5>President and CEO</h5>
+        </div>
+        <div id='office'>
+          <h4>Call office</h4>
+          <h6>781-000-0002</h6>
+        </div>
+        <div id='mobile'>
+          <h4>Call Mobile</h4>
+          <h6>617-000-0002</h6>
+        </div>
+        <div id='sms'>
+          <h4>SMS</h4>
+          <h6>617-000-0002</h6>
+        </div>
+        <div id='email'>
+          <h4>email</h4>
+          <h6>jtaylor@fakemail.com</h6>
+        </div>
       </div>
     </>
   );
